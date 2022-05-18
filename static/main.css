@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Angista Script";
+  src: "Angista Script.ttf";
+  format:("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Angista Script";
+  src: "Angista ScriptBold.ttf";
+  format:("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+body,
+input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b6608;
+  font-family: "Angista Script", Helvetica, sans-serif;
+}
+body {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+ul.a {
+  list-style-type: circle;
+}
+.icon {
+  width: 68px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #082765;
+  margin: 16px 0 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+input[type="text"] {
+  padding: 12px 16px;
+  border: 1px solid Red;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+input[type="submit"] {
+  padding: 12px 0;
+  color: #fff;
+  background-color: DarkRed;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.result {
+  font-weight: bold;
+  margin-top: 40px;
+}

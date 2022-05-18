@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+;  <title>What should I Paint/Draw?</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='artlogo.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='artlogo.png') }}" class="icon" />
+  <h3><i>What should I Paint/Draw?</i></h3>
+  <form action="/" method="post">
+    <input type="text" name="subject"  id="user_input" placeholder="i.e. flowers, landscape, human figure" required />
+    <input type="submit" value="Generate prompt"/>
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
+
+
