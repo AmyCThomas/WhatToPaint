@@ -2,9 +2,9 @@ venv/
 
 *.pyc
 __pycache__/
-Pipfile
+
 instance/
-requirementscopy.txt
+
 .pytest_cache/
 .coverage
 htmlcov/
