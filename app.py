@@ -1,7 +1,7 @@
 import os
 import openai
 from flask import Flask, redirect, render_template, request, url_for
-
+from flask_flatpages import FlatPages
 app = Flask(__name__)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -88,8 +88,7 @@ def generate_prompt(subject):
         subject.capitalize()
         )
     
-    from flask import Flask, render_template
-from flask_flatpages import FlatPages
+
 
 # Tell Flatpages to auto reload when a page is changed, and look for .md files
 FLATPAGES_AUTO_RELOAD = True
