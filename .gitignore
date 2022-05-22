@@ -11,8 +11,7 @@
 # next.js
 /out/
 main.css
-# production
-/build
+
 static/*
 # misc
 .DS_Store
