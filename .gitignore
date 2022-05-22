@@ -9,7 +9,6 @@
 /coverage
 .venv
 # next.js
-/.next/
 /out/
 main.css
 # production
