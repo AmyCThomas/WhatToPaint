@@ -24,7 +24,7 @@ export default function Home() {
     <div>
       <Head>
         <title>What Should I paint?</title>
-        <link rel="icon" href="/artloo.png" />
+        <link rel="icon" href="/artlogo.png" />
       </Head>
 
       <main className={styles.main}>
