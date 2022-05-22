@@ -11,11 +11,11 @@
 # next.js
 /out/
 main.css
-
+hide_redirects
 static/*
 # misc
 .DS_Store
-
+indexhide.html
 # debug
 npm-debug.log*
 yarn-debug.log*
